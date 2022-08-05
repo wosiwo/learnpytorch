@@ -7,17 +7,20 @@ print(torch.__version__)
 # 验证 卷积计算 padding 为 same 的情况
 
 # 第一步，我们创建好例子中的（4，4，1）大小的输入特征图
-input_feat = torch.tensor([[4, 1, 7, 5], [4, 4, 2, 5], [7, 7, 2, 4], [1, 0, 2, 4]], dtype=torch.float32)
+# input_feat = torch.tensor([[4, 1, 7, 5], [4, 4, 2, 5], [7, 7, 2, 4], [1, 0, 2, 4]], dtype=torch.float32)
+input_feat = torch.tensor([[4, 1, 7, 5], [4, 4, 2, 5], [7, 7, 2, 4], [1, 0, 2, 4]], dtype=torch.float32).unsqueeze(
+    0).unsqueeze(0)
 print(input_feat)
 print(input_feat.shape)
 
 # 输出：
+'''
 tensor([[4., 1., 7., 5.],
         [4., 4., 2., 5.],
         [7., 7., 2., 4.],
         [1., 0., 2., 4.]])
 torch.Size([4, 4])
-
+'''
 # 第二步，创建一个 2x2 的卷积，根据刚才的介绍，输入的通道数为 1，输出的通道数为 1，padding 为’same’
 
 # conv2d = nn.Conv2d(1, 1, (2, 2), stride=1, padding='same', bias=True)
@@ -49,5 +52,5 @@ tensor([[[[1., 0.],
 None
 '''
 
-
 output = conv2d(input_feat)
+print(output)

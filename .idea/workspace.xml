@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a5ad8e8-f679-4a99-8f8b-81dbf9ded896" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/06_dataset.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06mnist.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07transforms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08mkgrid.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/08models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09conv2dsame.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/09conv2dsame.py" beforeDir="false" afterPath="$PROJECT_DIR$/09conv2dsame.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +46,7 @@
       <option name="presentableId" value="Default" />
       <updated>1659581864159</updated>
       <workItem from="1659581865359" duration="646000" />
-      <workItem from="1659662326922" duration="7827000" />
+      <workItem from="1659662326922" duration="8378000" />
     </task>
     <servers />
   </component>
